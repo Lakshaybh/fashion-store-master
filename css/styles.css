@@ -1,6 +1,9 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-
+body {
+  background: linear-gradient(to bottom, rgb(119, 244, 119), rgb(248, 248, 248));
+  font-family: "Montserrat", sans-serif;
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -17,6 +20,11 @@
   --dark-color-light: #606060;
   --gray-color: #F0F1F3;
 }
+home {
+  background-color: linear-gradient(to bottom, rgb(119, 244, 119), black);
+}
+
+
 
 /*===== Fuente y tipografia =====*/
 :root {
